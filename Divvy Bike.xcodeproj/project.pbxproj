@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FCF459B1DAFD52A003A3E8A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF459A1DAFD529003A3E8A /* SwiftyJSON.swift */; };
+		3FCF459D1DB122F2003A3E8A /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF459C1DB122F2003A3E8A /* DetailController.swift */; };
 		3FF9E0CA1DAD320E00FCAE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9E0C91DAD320E00FCAE46 /* AppDelegate.swift */; };
 		3FF9E0CC1DAD320E00FCAE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9E0CB1DAD320E00FCAE46 /* ViewController.swift */; };
 		3FF9E0CF1DAD320E00FCAE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9E0CD1DAD320E00FCAE46 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FCF459A1DAFD529003A3E8A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3FCF459C1DB122F2003A3E8A /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		3FF9E0C61DAD320E00FCAE46 /* Divvy Bike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Divvy Bike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF9E0C91DAD320E00FCAE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF9E0CB1DAD320E00FCAE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 			children = (
 				3FF9E0C91DAD320E00FCAE46 /* AppDelegate.swift */,
 				3FF9E0CB1DAD320E00FCAE46 /* ViewController.swift */,
+				3FCF459A1DAFD529003A3E8A /* SwiftyJSON.swift */,
 				3FF9E0CD1DAD320E00FCAE46 /* Main.storyboard */,
+				3FCF459C1DB122F2003A3E8A /* DetailController.swift */,
 				3FF9E0D01DAD320E00FCAE46 /* Assets.xcassets */,
 				3FF9E0D21DAD320E00FCAE46 /* LaunchScreen.storyboard */,
 				3FF9E0D51DAD320E00FCAE46 /* Info.plist */,
@@ -193,13 +199,16 @@
 				TargetAttributes = {
 					3FF9E0C51DAD320E00FCAE46 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					3FF9E0D91DAD320E00FCAE46 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3FF9E0C51DAD320E00FCAE46;
 					};
 					3FF9E0E41DAD320E00FCAE46 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3FF9E0C51DAD320E00FCAE46;
 					};
 				};
@@ -256,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCF459D1DB122F2003A3E8A /* DetailController.swift in Sources */,
+				3FCF459B1DAFD52A003A3E8A /* SwiftyJSON.swift in Sources */,
 				3FF9E0CC1DAD320E00FCAE46 /* ViewController.swift in Sources */,
 				3FF9E0CA1DAD320E00FCAE46 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-Bike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-Bike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-BikeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy Bike.app/Divvy Bike";
 			};
 			name = Debug;
@@ -439,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-BikeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy Bike.app/Divvy Bike";
 			};
 			name = Release;
@@ -450,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-BikeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Divvy Bike";
 			};
 			name = Debug;
@@ -461,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Things.Divvy-BikeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Divvy Bike";
 			};
 			name = Release;
@@ -484,6 +501,7 @@
 				3FF9E0F01DAD320F00FCAE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF9E0F11DAD320F00FCAE46 /* Build configuration list for PBXNativeTarget "Divvy BikeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +510,7 @@
 				3FF9E0F31DAD320F00FCAE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF9E0F41DAD320F00FCAE46 /* Build configuration list for PBXNativeTarget "Divvy BikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +519,7 @@
 				3FF9E0F61DAD320F00FCAE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
